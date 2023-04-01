@@ -1,4 +1,4 @@
-# Popovers
+# Help Desk
 
 ссылка на Github Pages:<https://yrchek.github.io/HelpDeskFrontend/>
 
