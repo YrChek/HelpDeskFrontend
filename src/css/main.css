@@ -1,0 +1,60 @@
+.help-desk {
+  display: flex;
+  flex-direction: column;
+  width: 900px;
+  margin: auto;
+  box-sizing: border-box;
+  font-family: Arial, Tahoma, sans-serif;
+}
+.createBtn{
+  width: 20%;
+  height: 45px;
+  font-size: 18px;
+  margin: 10px 0 20px;
+  margin-left: auto;
+  border: 1px solid black;
+  border-radius: 15px;
+  background: none;
+  cursor: pointer;
+}
+.ticket-container {
+  border-bottom: 1px solid gray;
+}
+.ticket-item {
+  display: flex;
+  width: 100%;
+  min-height: 60px;
+  box-sizing: border-box;
+  border-top: 1px solid grey;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  align-items: baseline;
+}
+.circle {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 50%;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.ticket-text {
+  display: flex;
+  width: 62%;
+  font-size: 18px;
+  flex-direction: column;
+  pointer-events: none;
+}
+.ticket-time {
+  width: 150px;
+  font-size: 18px;
+  pointer-events: none;
+}
+.ticket-change {
+  margin-left: auto;
+}
